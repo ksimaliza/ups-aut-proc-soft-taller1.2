@@ -21,7 +21,7 @@ public class DemoDockerApplication {
 
 	@GetMapping
 	public String hola() {
-		return "hola";
+		return "redirect:/users";
 	}
 
 	@RequestMapping(value = "/users")
