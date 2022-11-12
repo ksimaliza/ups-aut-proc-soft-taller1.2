@@ -20,7 +20,7 @@ public class DemoDockerApplication {
 	}
 
 	@GetMapping
-	public String hola() {
+	public String index() {
 		return "redirect:/users";
 	}
 
